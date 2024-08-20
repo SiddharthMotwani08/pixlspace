@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --color-bg: #FDF1F2;
+    --color-heart: #EA442B;
+    --easing: cubic-bezier(.7,0,.3,1);
+    --duration: .5s;
+  }
+
+  @layer utilities {
+    /* Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+  
+    .no-scrollbar {
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
+  }
